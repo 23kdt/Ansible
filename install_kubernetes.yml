@@ -5,8 +5,8 @@
   tasks:
 
   - name: install kubernetes package
-    package:
+    apt:
       name:
-        - "{{ k8s_package }}"
+        - kubernetes
       state: latest
       update_cache: yes
