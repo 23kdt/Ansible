@@ -3,12 +3,10 @@ Repositorio trabajo teórico Gestión y Administración de Red
 
 Listado archivos del repositorio:
 
-- ansible.cfg : indica el inventario y claves ssh a usar por defecto, para evitar introducir ambos continuamente por línea de comandos
+- /demo: carpeta con todos los ejemplos y archivos necesarios para la demostración, así como archivos de configuración e inventario de hosts usados
 
-- inventario: listado de nodos o host asociados
+- /doc: archivos referentes a la documentación del trabajo. Presentación y documentación.
 
-- install_kubernetes.yml / uninstall_kubernetes.yml : ejemplos de playbook para mostrar la sincronización de los nodos con el maestro y el uso de apt 
-
-
+- bootstrap.sh: archivo para la descarga de la imagen ISO de las máquinas utilizadas (Ubuntu 22.04.2 LTS)
 
 Diego Dorado Galán
